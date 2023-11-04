@@ -1,0 +1,366 @@
+body{
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    text-transform: uppercase;
+}
+.clear{clear: both;}
+/*Start header*/
+.header .slider{
+    height: 400px;
+    width: 100%;
+    background-image: url("digital.jpg");
+    background-size: cover;
+}
+.header .slider .intro{
+    text-align: center;
+    padding-top: calc(400px/2);
+}
+.header .slider .intro h1{
+    margin: 0 auto;
+    width: 600px;
+    color: white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 5px 0;
+}
+.header .slider .intro button{
+    background: none;
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.header .navbar{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.header .navbar h1{
+    float: left;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left:0 ;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+span{color: aquamarine;}
+.header .navbar ul li a:hover{color: aquamarine;}
+/*End header*/
+
+/*Start features*/
+.features{
+    overflow: hidden;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.features .feat{
+    float: left;
+    width: calc(100% / 3);
+    height: 200px;
+    background-color: darkgray;
+}
+.features .feat p{
+    line-height: 25px;
+}
+/*End features*/
+
+/*Start About Me*/
+.about-me{
+    overflow: hidden;
+    background-color: burlywood;
+}
+.about-me .img{
+    float: left;
+    width: 40%;
+}
+.about-me .img img{width:100%;height: 550px;}
+.about-me .info{
+    float: right;
+    width: 60%;
+}
+.about-me .info h1{
+    margin: 0 0 10px 40px;
+}
+.about-me .info p{
+    line-height: 25px;
+    margin: 0 0 10px 40px;
+}
+.about-me .info img{
+    width: 10%;
+    height: 20px;
+    float: left;
+}
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+/*End About Me*/
+
+/*start My Skills*/
+.my-skills{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: dimgrey;
+}
+.my-skills .skills h1{
+    margin: 20px 0 25px 40px;
+    color: black;
+}
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+    line-height: 25px;
+    font-size: 1.2em;
+    color: black;
+}
+.my-skills .skills,
+.my-skills .progress{
+    width: 50%;
+    float: left;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    margin: 0 0 10px 40px;
+    color: aquamarine;
+    background-color:white ;
+    cursor: pointer;
+    font-size: 2.5em;
+}
+.btn1:hover{
+    color: white;
+    background-color: aquamarine;
+}
+.progress .techniques{margin-left: 40px;}
+.progress .techniques div{
+    background-color: darkgrey;
+    height: 20px;
+}
+.progress .techniques div span{
+    background-color: darkolivegreen;
+    height:20px ;
+    display: block;
+    color: white;
+    text-align: center;
+}
+/*End My Skills*/
+
+/*Start Resume*/
+.resume{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: beige;
+}
+.resume p{
+    line-height: 25px;
+    padding: 0 40px;
+    font-size: 1.2em;
+}
+.btn2{
+    width: 50%;
+    height: 50px;
+    color: aquamarine;
+    background-color:white ;
+    cursor: pointer;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+.btn2:hover{
+    color: white;
+    background-color: aquamarine;
+}
+/*End Resume*/
+
+/*Start My Education*/
+.my-education{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    line-height: 25px;
+    background-color: lightslategrey;
+}
+.my-education span{
+    display: block;
+    color: dimgrey;
+    margin-bottom: 10px;
+}
+.my-education .span1{
+    display: inline;
+    background-color: aquamarine;
+    padding: 7px;
+}
+.my-education p{
+    font-size: 1.2em;
+}
+.my-education .main{
+    margin-right: 5%;
+    width: 50%;
+    float: left;
+}
+.my-education .exp{
+    width: 45%;
+    float: left;
+}
+.my-education hr{
+    margin: 20px 0;
+    background-color: dimgrey;
+    height: 1px;
+    border: 0;
+}
+/*End My Education*/
+
+/*Start Resume2*/
+.resume2{
+    background-color: dimgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.resume2 q{
+    line-height: 25px;
+    font: italic;
+}
+.resume2 ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.resume2 ul li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+    display: inline-block;
+    cursor: pointer;
+}
+.resume2 ul li.active{
+    background-color: aquamarine;
+}
+.resume2 ul li:hover{
+    background-color: aquamarine;
+}
+/*End Resume2*/
+
+/*Start portfolio*/
+.portfolio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portfolio h1{text-align: center;}
+.portfolio p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 1.2em;
+}
+.portfolio .imgs2{
+    overflow: hidden;
+}
+.portfolio .imgs2 > div{
+    float: left;
+    width: calc(100%/3);
+    margin-bottom: 20px;
+}
+.portfolio .imgs2 > div img{
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+}
+/*End portfolio*/
+
+/*Start Contact Me*/
+.contact{
+    background-color: dimgray;
+    color: white;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact h1{
+    color: black;
+    margin-left: 40px;
+}
+.contact p{
+    color: darkgrey;
+    margin-left: 40px;
+    line-height: 25px;
+}
+.contact .info,
+.contact .form{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+.contact .form label{
+    display: block;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact .form label span{color: red;}
+.contact .form input{
+    display: block;
+    background-color: darkgray;
+    width: 50%;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact .form textarea{height: 150px;width: 50%;background-color: darkgray;}
+.contact .form button{color: white;
+    background-color: black;
+    cursor: pointer;
+    display: block;
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+}
+/*End Contact Me*/
+
+/*Start Footer*/
+.footer{
+    background-color: darkslategrey;
+    color: lightgrey;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+.footer ul li img{
+    width: 20px;
+    height: 20px;
+}
+/*End Footer*/
